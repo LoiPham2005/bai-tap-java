@@ -15,6 +15,7 @@ public class Main {
                     2. Hiển thị danh sách đối tượng.
                     3. Tìm kiếm trong khoảng cân nặng.
                     4. Thoát.
+                    5 . meo
                     ----------------------
                         """);
                 System.out.println("moi chon chuc nang: ");
@@ -28,6 +29,13 @@ public class Main {
                     }
                     case 3 ->{
                         dongVat.timKiemKhoangCan();
+                    }
+                    case 4 ->{
+                        System.out.println("thoat");
+                    }
+                    case 5 ->{
+                        Meo meo = new Meo("d", "dd", 34, "lamdong", "meo");
+                        meo.inThongTin();
                     }
                     default ->
                         System.err.println("ko ton tai. moi nhap lai ");

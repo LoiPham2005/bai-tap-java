@@ -11,13 +11,15 @@ public class QuanLiSinhVien {
         int chon;
 
         do {
-            System.out.println("1. Nhap ds sv\n"
-                    + "2. Xuat ds sv\n"
-                    + "3. Xuat ds sv theo khoang diem\n"
-                    + "4. Tim sinh vien theo ho ten\n"
-                    + "5. tim va sua sinh vien theo ho ten\n"
-                    + "6. tim va xoa ho ten\n"
-                    + "7. Thoat\n");
+            System.out.println("""
+                    1. Nhap ds sv
+                    2. Xuat ds sv
+                    3. Xuat ds sv theo khoang diem
+                    4. Tim sinh vien theo ho ten
+                    5. tim va sua sinh vien theo ho ten
+                    6. tim va xoa ho ten
+                    7. Thoat
+                    """);
             System.out.println("Nhap lua chon: ");
             chon = sc.nextInt();
             switch (chon) {

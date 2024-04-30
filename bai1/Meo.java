@@ -21,7 +21,7 @@ public class Meo extends DongVat{
 
     @Override
     public void inThongTin() {
-        // TODO Auto-generated method stub
+  
         super.inThongTin();
         System.out.println("tieng keu: " + tiengKeu);
     }
